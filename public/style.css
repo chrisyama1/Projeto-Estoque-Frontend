@@ -1,0 +1,25 @@
+/* Garantir que html e body ocupem toda a altura da tela */
+html, body {
+  height: 100%; /* Faz com que a altura total da página seja 100% da tela */
+  margin: 0; /* Remove margens padrão do navegador */
+}
+
+
+/* O contêiner principal onde o conteúdo vai ficar */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+  padding-bottom: 50px; /* Garante que o rodapé não se sobreponha ao conteúdo */
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #f8f9fa; /* Cor de fundo do rodapé */
+  padding: 20px; /* Espaçamento interno do rodapé */
+  text-align: center; /* Centraliza o conteúdo do rodapé */
+  width: 100%; /* Garante que o rodapé ocupe todo rodapé */
+}/* Estilo para a página de login */
+
+
+

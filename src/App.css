@@ -1,0 +1,167 @@
+/* ProdutoLista.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.produto-lista-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Campo de busca */
+.produto-busca {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Tabela de produtos */
+.produto-tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.produto-tabela th, .produto-tabela td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.produto-tabela th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.produto-item {
+  background-color: #f1f1f1;
+}
+
+.produto-item:hover {
+  background-color: #e9e9e9;
+}
+
+/* Nome do produto */
+.produto-nome {
+  color: #333;
+}
+
+/* Quantidade do produto */
+.produto-quantidade {
+  color: #555;
+}
+
+/* Ações */
+.produto-acoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Botões */
+.produto-entrada, .produto-saida, .produto-excluir {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.produto-entrada {
+  background-color: #28a745;
+  color: white;
+}
+
+.produto-entrada:hover {
+  background-color: #218838;
+}
+
+.produto-saida {
+  background-color: #007bff;
+  color: white;
+}
+
+.produto-saida:hover {
+  background-color: #0056b3;
+}
+
+.produto-excluir {
+  background-color: #dc3545;
+  color: white;
+}
+
+.produto-excluir:hover {
+  background-color: #c82333;
+}
+
+/* FormStyles.css */
+
+.formulario-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-select, .form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+.form-input::-webkit-outer-spin-button,
+.form-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+.form-button:focus,
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #80bdff;
+}
