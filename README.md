@@ -1,4 +1,4 @@
-# ProjetoEstoqueFrontend
+# Projeto Estoque Frontend
 <h1>Frontend projeto de Gestão de estoque utilizando React.js e Material UI</h1>
 <br>
 <a href="https://react.dev" alt="ReactJs">
